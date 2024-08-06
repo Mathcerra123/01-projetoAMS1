@@ -1,1 +1,51 @@
+01.1- Informe qual é a versão do Node.js que foi instalada e descreva sua função.
+R: node -v
+v20.11.1
 
+01.2- Informe qual é a versão do npm e sua função.
+R: npm -v
+10.2.4
+
+01.3a- Observe como ficou a estrutura de diretórios da pasta "xx_projeto_AMS_I\proj_crud_ts". Anote.
+R: npm install -D typescript
+
+added 1 package in 2s
+npm notice
+npm notice New minor version of npm available! 10.2.4 -> 10.8.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.8.2
+npm notice Run npm install -g npm@10.8.2 to update!
+npm notice
+
+01.3b- Informe qual é a versão do Typescript e sua função.
+R: npm tsc -v 
+10.2.4
+
+01.4a- Observe como ficou a estrutura de diretórios da pasta "xx_projeto_AMS_I\proj_crud_ts". O que foi alterado em relação à pergunta 01.3a? Anote.
+R: npm install -D ts-node
+added 19 packages, and audited 21 packages in 3s
+found 0 vulnerabilities
+
+01.4b - Informe qual é a versão do ts-node e sua função.
+R:npm ts-node -v
+10.2.4
+
+Rode o comando "npx tsc" e diga qual é a versão do npx e do tsc.
+R:npx tsc
+Version 5.5.4
+
+01.5- Qual é a diferença entre os comandos "npm" e o "npx"?
+R: 
+npm para gerenciar pacotes e dependências.
+npx para executar pacotes diretamente, especialmente aqueles que você não usa regularmente.
+
+
+01.6- Qual é a função do comando "tsc"?
+R: 
+tsc 
+Compiles the current project (tsconfig.json in the working directory.)
+Compila o atual projeto/pasta (tsconfig.json no diretório selecionado.)
+
+1.7- Qual é a diferença entre utilizar a chave "-D" ou a chave "-g" nos comandos "npm install", conforme exemplos abaixo?
+"npm install -D ts-node" X "npm install -g ts-node"
+"npm install -D ts-node" X "npm install -g ts-node"
+R: use -D para dependências de desenvolvimento locais e -g para ferramentas que precisam estar acessíveis globalmente.
